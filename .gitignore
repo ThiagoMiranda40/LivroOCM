@@ -11,3 +11,7 @@ yarn-error.log*
 # Environment files
 .env
 .env.local
+
+# Cloudflare & Wrangler
+.wrangler/
+*.log

@@ -283,9 +283,12 @@ summary::-webkit-details-marker{display:none}
     </div>
     <div style="display:grid;grid-template-columns:var(--authorCols);gap:clamp(3.5rem,7vw,7rem);align-items:center">
       <div id="authorVisual" style="position:relative;padding-bottom:clamp(2.5rem,5vw,4rem)">
+        <!-- REMOVER: substituir por foto real do autor (Thiago Miranda) quando disponível -->
         <div id="authorFrame" style="position:relative;aspect-ratio:4 / 5;overflow:hidden;background:#550B1C">
-          <img id="authorPhoto" src="assets/img/autor.png" alt="Thiago Miranda, autor do livro O Corredor Milionário" style="position:absolute;inset:-12% 0;width:100%;height:124%;object-fit:cover;object-position:center top;display:block">
-          <span style="position:absolute;top:1.25rem;left:1.25rem;font-family:'JetBrains Mono',monospace;font-size:.72rem;letter-spacing:.15em;color:rgba(255,255,255,.95);text-transform:uppercase;background:rgba(10,10,10,.45);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);padding:.25rem .6rem;border-radius:4px;border:1px solid rgba(255,255,255,.15)">T.M. · AUTOR</span>
+          <div id="authorPhoto" style="position:absolute;inset:-12% 0;background:repeating-linear-gradient(135deg,#5E0D1F 0 14px,#550B1C 14px 28px)">
+            <span style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-family:'JetBrains Mono',monospace;font-size:.72rem;color:rgba(255,255,255,.7);white-space:nowrap">[ foto do autor ]</span>
+          </div>
+          <span style="position:absolute;top:1.25rem;left:1.25rem;font-family:'JetBrains Mono',monospace;font-size:.72rem;letter-spacing:.15em;color:rgba(255,255,255,.9);text-transform:uppercase">T.M. · AUTOR</span>
         </div>
         <svg id="authorSig" viewBox="0 0 640 250" aria-hidden="true" style="position:absolute;left:clamp(.5rem,2vw,1.5rem);bottom:0;width:min(118%,640px);height:auto;overflow:visible;pointer-events:none">
           <text x="0" y="108" font-family="Bricolage Grotesque, sans-serif" font-weight="800" font-size="124" letter-spacing="-6" fill="#C9A233" stroke="#C9A233" stroke-width="1.5" stroke-dasharray="1600" stroke-dashoffset="0">Thiago</text>

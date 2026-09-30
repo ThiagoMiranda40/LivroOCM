@@ -1,3 +1,7 @@
+/**
+ * Cloudflare Workers Static Assets Configuration
+ * Projeto: O Corredor Milionário
+ */
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "corredormilionario",
